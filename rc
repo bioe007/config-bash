@@ -1,0 +1,9 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+export BASH="$HOME/.bash"
+source $BASH/init.sh
