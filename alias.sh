@@ -18,7 +18,7 @@ alias vbxp2="VBoxSDL --nohostkeys r -vm xp2"
 alias pg="less"
 alias python=`which python2`
 alias tma="tmux attach || tmux"
-alias hstr='mplayer -demuxer ogg \
+alias hstr='mplayer -demuxer ogg -cache 256 \
            http://xertia.homelinux.org:8000/mpd && \
            echo -e "\a" || echo -e "\a"'
 
@@ -26,14 +26,6 @@ alias hstr='mplayer -demuxer ogg \
 alias cds="cd $SANDBOX"
 alias src="cd $SANDBOX"
 alias mv="mv -i"
-
-# grepping
-alias g='grep'
-alias gi='grep -i'
-alias gn='grep -n'
-alias G='| grep'
-alias GI='| grep -i'
-alias GN='| grep -n'
 
 # find
 alias find_broken_links='find . -type l | \
