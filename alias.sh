@@ -18,7 +18,7 @@ alias vbxp2="VBoxSDL --nohostkeys r -vm xp2"
 alias pg="less"
 alias python=`which python2`
 alias tma="tmux attach || tmux"
-alias hstr='mplayer -demuxer ogg -cache 256 \
+alias hstr='mplayer -demuxer ogg -cache 512 \
            http://xertia.homelinux.org:8000/mpd && \
            echo -e "\a" || echo -e "\a"'
 
